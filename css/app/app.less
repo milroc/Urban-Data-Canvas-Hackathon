@@ -1,0 +1,58 @@
+// Variables and mixins
+
+.transition (@transition) {
+  -webkit-transition: @transition;  
+  -moz-transition:    @transition;
+  -ms-transition:     @transition; 
+  -o-transition:      @transition;  
+}
+
+.highlight-fade() {
+  .transition(background-color 500ms ease-in-out;);
+}
+
+
+// ELements
+
+body{
+	font-family: "Open Sans";
+}
+
+
+// Button Overrides
+
+button, .btn, .btn-default {
+  background-color: #fff;
+  height: 150px;
+  width: 200px;
+  .highlight-fade;
+}
+
+.btn:focus {
+ outline: none;
+}
+
+.btn-default:focus {
+ outline: none;
+ background-color: #fff;
+}
+
+.btn-default:active {
+  background-color: #fff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn-default:hover {
+  background-color: hsla(18, 94%, 95%, .2);
+}
+
+.btn.btn-highlight, .btn.btn-highlight:focus {
+  background-color: hsla(18, 94%, 95%, 1);
+}
+
+// Other
+
+/*.bottom {
+  margin-top: -4px;
+}*/
