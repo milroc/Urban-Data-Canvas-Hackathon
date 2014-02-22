@@ -1,5 +1,7 @@
 // Variables and mixins
 
+@gray: #3e4651;
+
 .transition (@transition) {
   -webkit-transition: @transition;  
   -moz-transition:    @transition;
@@ -16,6 +18,7 @@
 
 body{
 	font-family: "Open Sans";
+  background-color: @gray;
 }
 
 
@@ -49,6 +52,10 @@ button, .btn, .btn-default {
 
 .btn.btn-highlight, .btn.btn-highlight:focus {
   background-color: hsla(18, 94%, 95%, 1);
+}
+
+i {
+  padding-top: 10px;
 }
 
 // Other

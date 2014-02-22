@@ -1681,7 +1681,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #3e4651;
 }
 .form-control {
   display: block;
@@ -1690,7 +1690,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: #3e4651;
   background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
@@ -3388,7 +3388,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #3e4651;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
@@ -3521,7 +3521,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #3e4651;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
@@ -5843,6 +5843,7 @@ td.visible-print {
 }
 body {
   font-family: "Open Sans";
+  background-color: #3e4651;
 }
 button,
 .btn,
@@ -5874,6 +5875,9 @@ button,
 .btn.btn-highlight,
 .btn.btn-highlight:focus {
   background-color: #feede6;
+}
+i {
+  padding-top: 10px;
 }
 /*.bottom {
   margin-top: -4px;
